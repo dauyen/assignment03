@@ -1,0 +1,68 @@
+@media (max-width: 767px) {
+  /* NAVBAR */
+  .nav-bar-menu a {
+    border-left: none;
+  }
+
+  .nav-bar-menu a:last-child {
+    border-right: none;
+  }
+
+  /* ABOUT SECTION */
+  .about-section-text {
+    margin-top: 10px;
+  }
+
+  .mt-40.info {
+    margin-top: 10px;
+  }
+
+  /* CERTIFICATE SECTION */
+  .certificate-column:first-child .certificate-box {
+    border-right: none;
+  }
+
+  .certificate-column {
+    padding-bottom: 20px;
+  }
+
+  /* JOB-INFO-SECTION */
+  .job-info-wrapper {
+    display: block;
+  }
+
+  .job-info-col {
+    width: 100%;
+  }
+
+  /* PROJECT SECTION */
+  .project-wrapper {
+    padding-bottom: 0;
+  }
+  .project-info {
+    display: block;
+    padding: 0;
+  }
+
+  .project-img {
+    height: 250px;
+  }
+
+  .project-wrapper .project-icon,
+  .project-wrapper .project-year {
+    margin-bottom: 8px;
+  }
+
+  /* FOOTER  */
+  .footer-wrapper span {
+    display: none;
+  }
+
+  .footer-wrapper ul {
+    gap: 40px;
+  }
+
+  .footer-wrapper li a i {
+    font-size: 40px;
+  }
+}
